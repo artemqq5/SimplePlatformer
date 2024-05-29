@@ -85,15 +85,7 @@ $RECYCLE.BIN/
 *.pem
 
 # Project specific settings
-ProjectSettings/EditorBuildSettings.asset
-ProjectSettings/ProjectSettings.asset
-ProjectSettings/QualitySettings.asset
-ProjectSettings/TagManager.asset
-ProjectSettings/TimeManager.asset
-ProjectSettings/UnityConnectSettings.asset
-ProjectSettings/DynamicsManager.asset
-ProjectSettings/Physics2DSettings.asset
-ProjectSettings/PhysicsSettings.asset
-
-# Rider project specific settings
-.idea/
+/ProjectSettings/
+/Assets/
+/Packages/
+/UnitySettings/
