@@ -35,10 +35,10 @@ public class PlayerContreoller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Îáðîáêà ðóõó ïåðñîíàæà çà äîïîìîãîþ êëàâ³àòóðè
+        // ÐžÐ±Ñ€Ð¾Ð±ÐºÐ° Ñ€ÑƒÑ…Ñƒ Ð¿ÐµÑ€ÑÐ¾Ð½Ð°Ð¶Ð° Ð·Ð° Ð´Ð¾Ð¿Ð¾Ð¼Ð¾Ð³Ð¾ÑŽ ÐºÐ»Ð°Ð²Ñ–Ð°Ñ‚ÑƒÑ€Ð¸
         float horizontal = Input.GetAxisRaw("Horizontal");
 
-        // Îáðîáêà ñåíñîðíîãî íàòèñêàííÿ äëÿ ðóõó âë³âî/âïðàâî
+        // ÐžÐ±Ñ€Ð¾Ð±ÐºÐ° ÑÐµÐ½ÑÐ¾Ñ€Ð½Ð¾Ð³Ð¾ Ð½Ð°Ñ‚Ð¸ÑÐºÐ°Ð½Ð½Ñ Ð´Ð»Ñ Ñ€ÑƒÑ…Ñƒ Ð²Ð»Ñ–Ð²Ð¾/Ð²Ð¿Ñ€Ð°Ð²Ð¾
         if (Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);

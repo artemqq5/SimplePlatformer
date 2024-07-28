@@ -1,0 +1,4 @@
+repository "Simple platformer@artemqq5@cloud"
+  path "/"
+    br "/main"
+    co "/main"
